@@ -11,3 +11,11 @@ Forked from [jonbarron/jonbarron.github.io](https://github.com/jonbarron/jonbarr
 ## Section framework
 
 News and Latest Posts follow the section structure of https://ziqi-ma.github.io/. Their gray rows are explicitly placeholders, not factual announcements. Each publication has a left-hand image placeholder at `research-placeholder.svg`; replace an individual image `src` with a PNG, JPG, GIF, or other browser-supported image. Add dates and real update/post links in the corresponding tables. The original Jon Barron white background, blue links, font, and table layout are retained.
+
+## Pages
+
+- `index.html`: profile, News, selected research, and Latest Posts.
+- `projects.html`: Research and Other Projects, with image placeholders and expandable details. All project entries are placeholders.
+- `publications.html`: all four verified Scholar records grouped by year, with live text filtering.
+
+Navigation links connect all three pages. This is a static site, with no Jekyll or build dependency.
