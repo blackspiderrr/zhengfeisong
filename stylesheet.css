@@ -142,3 +142,6 @@ span.highlight {
 }
 /* Only small-screen adaptation; desktop retains the original template. */
 @media(max-width:520px){.profile tr{display:flex;flex-direction:column-reverse;align-items:center}.profile .profile-copy{width:100%!important}.profile .profile-image{width:45%!important;max-width:45%!important}.name{padding-top:8px}.publications td{overflow-wrap:anywhere}}
+
+/* Academic section framework and replaceable publication figures. */
+.section-block{width:100%;border:0;border-spacing:0;margin:8px auto}.section-block>tbody>tr>td{padding:16px}.updates{width:100%;border:0;border-spacing:0;margin-top:12px}.updates td{padding:6px 0;vertical-align:top}.updates .date{width:92px;color:#666;padding-right:16px;white-space:nowrap}.placeholder-copy{color:#777}.paper-visual{padding:16px;width:192px;min-width:192px;vertical-align:middle}.paper-thumbnail{display:block;width:160px;max-width:100%;height:auto}.paper-details{width:auto}@media(max-width:520px){.publications tr{display:flex;flex-direction:column}.publications .paper-visual,.publications .paper-details{width:100%!important}.publications .paper-visual{padding-bottom:0}.paper-thumbnail{width:160px}.updates .date{width:36px;padding-right:10px}}
