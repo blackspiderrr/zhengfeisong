@@ -19,3 +19,5 @@ News and Latest Posts follow the section structure of https://ziqi-ma.github.io/
 - `publications.html`: all four verified Scholar records grouped by year, with live text filtering.
 
 Navigation links connect all three pages. This is a static site, with no Jekyll or build dependency.
+
+Home shows three selected publication slots. All four papers remain on Publications. The Visitors area is an inactive placeholder for a future visitor map and analytics widget; it loads no tracker and reports no simulated counts. A real widget requires a configured service or a tracking backend.
