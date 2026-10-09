@@ -150,5 +150,6 @@ span.highlight {
 
 .visitor-widget{max-width:520px;margin:20px auto 0}.visitor-map{min-height:180px;border:1px solid #ddd;background:#f7f7f7;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;padding:20px;text-align:center}.visitor-stats{display:flex;justify-content:space-around;gap:16px;text-align:center;margin-top:16px;color:#666}.visitor-stats strong{font-size:20px;color:#444;font-weight:normal}.visitor-note{text-align:center;color:#777;font-size:12px;margin-top:12px}@media(max-width:520px){.visitor-stats{gap:8px}.visitor-stats span{font-size:12px}}
 
-/* Larger publication figures while retaining their native aspect ratio. */
-.publication-page .paper-visual{width:282px;min-width:282px}.publication-page .paper-thumbnail{width:250px}@media(max-width:650px){.publication-page .publications tr{display:flex;flex-direction:column}.publication-page .paper-visual,.publication-page .paper-details{width:100%!important;min-width:0}.publication-page .paper-visual{padding-bottom:0}.publication-page .paper-thumbnail{width:250px;max-width:100%}}
+/* Larger publication figures with a compact text gap. */
+.publication-page .paper-visual{width:350px;min-width:350px;padding:16px 6px 16px 0}.publication-page .paper-thumbnail{width:350px}.publication-page .paper-details{padding-left:6px!important}
+@media(max-width:720px){.publication-page .publications tr{display:flex;flex-direction:column}.publication-page .paper-visual,.publication-page .paper-details{width:100%!important;min-width:0;box-sizing:border-box}.publication-page .paper-visual{padding:16px 0 6px}.publication-page .paper-details{padding:6px 0 16px!important}.publication-page .paper-thumbnail{width:350px;max-width:100%}}
